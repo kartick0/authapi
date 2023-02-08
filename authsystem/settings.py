@@ -30,7 +30,7 @@ SECRET_KEY='django-insecure-4kne349y4t6-m4(znimeb)=(8u0@t*j74nnb9nf=xqs5=b7)8*'
 # DEBUG = False
 DEBUG = 'RENDER' not in os.environ
 
-ALLOWED_HOSTS = ['https://authapi-f77t.onrender.com/','localhoct']
+ALLOWED_HOSTS = ['authapi-f77t.onrender.com','localhoct']
 
 
 # Application definition
