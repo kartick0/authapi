@@ -71,7 +71,7 @@ class SendPasswordResetEmailSerializer(serializers.Serializer):
             user=User.objects.get(email=email)
             uid=urlsafe_base64_encode(force_bytes(user.id))
             token=PasswordResetTokenGenerator().make_token(user)
-            link=f'https://authapi-f77t.onrender.com/api/user/reset/{uid}/{token}'
+            link=f'https://authapi-8ifr.onrender.com/api/user/reset/{uid}/{token}'
             data={
                 'subject':'Reset your password',
                 'body': f'Click the following link to reset your password.\n{link}',

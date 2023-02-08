@@ -30,7 +30,7 @@ SECRET_KEY='django-insecure-4kne349y4t6-m4(znimeb)=(8u0@t*j74nnb9nf=xqs5=b7)8*'
 # DEBUG = False
 DEBUG = 'RENDER' not in os.environ
 
-ALLOWED_HOSTS = ['authapi-f77t.onrender.com','localhoct']
+ALLOWED_HOSTS = ['authapi-8ifr.onrender.com','localhoct']
 
 
 # Application definition
@@ -167,7 +167,7 @@ DEFAULT_FORM_EMAIL= 'AuthAPI <testing25801@gmail.com>'
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://127.0.0.1:8000",
-    "https://authapi-f77t.onrender.com/",
+    "https://authapi-8ifr.onrender.com/",
 ]
 
 AUTHENTICATION_BACKENDS = (

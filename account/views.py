@@ -36,7 +36,7 @@ class UserRegistrationView(APIView):
         user=serializer.save()
         uid=urlsafe_base64_encode(force_bytes(user.id))
         token=PasswordResetTokenGenerator().make_token(user)
-        link=f'https://authapi-f77t.onrender.com/api/user/activate/{uid}/{token}'
+        link=f'https://authapi-8ifr.onrender.com/api/user/activate/{uid}/{token}'
         data={
             'subject':'Activate your account',
             'body': f'Click the following link to activate your.\n{link}',
